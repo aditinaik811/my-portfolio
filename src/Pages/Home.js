@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div id="home">
   <div className="home-container">
-  <img src={arn_img} alt="Your Name" id="profile_photo" />
+  <img src={arn_img} alt="Aditi Naik" id="profile_photo" />
   
   <div id="home_details">
     <h1>Aditi Ravindra Naik</h1>
