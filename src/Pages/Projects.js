@@ -6,25 +6,25 @@ const Projects = () => {
       id: 1,
       title: "Aditi's Cloud Kitchen",
       description: "Designed and developed a front-end website for a home-based cloud kitchen to showcase menu offerings and enable online ordering. Features include food item display, add-to-cart functionality, and total price calculation. Tech Stack: HTML, CSS, JavaScript.",
-      link: "#" 
+      link: "https://github.com/aditinaik811/ARN_Cloud_Kitchen.git" 
     },
     {
       id: 2,
       title: "Weather Webpage",
       description: "Built a dynamic webpage that fetches and displays real-time weather data for any city using a public weather API. Tech Stack: HTML, CSS, JavaScript, Weather API.",
-      link: "#" 
+      link: "https://github.com/aditinaik811/WeatherData_using_API.git" 
     },
     {
       id: 3,
       title: "Student Information Management System",
       description: "Developed a web-based application to perform CRUD operations on student records. Built using PHP, HTML, CSS, and MySQL with real-time backend interaction. Tech Stack: PHP, MySQL, HTML, CSS, XAMPP.",
-      link: "#" // For inserting link
+      link: "#" 
     },
     {
       id: 4,
       title: "Portfolio Webpage",
       description: "Built a responsive portfolio using React to showcase skills, projects, and contact information with reusable components. Tech Stack: React, CSS.",
-      link: "#" 
+      link: "https://github.com/aditinaik811/my-portfolio.git" 
     },
     {
       id: 5,
@@ -48,14 +48,15 @@ const Projects = () => {
 
   return (
     <div id = "project_lists">
+      <h3>Styling in progress... stay tuned for updates</h3>
       <h2 id = "project_page_heading">My Projects</h2>
       <ol id = "lists">
         {projectList.map(project => (
-          <li key={project.id} id="list_of_projects">
-            <h3 id="project_title"> {project.title}</h3>
+          <l1 key={project.id} id="list_of_projects">
+            <h3 id="project_title"> {project.id}. {project.title}</h3>
             <p id="project_description">{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" id="project_link">View Project</a>
-          </li>
+            <a href={project.link} target="_blank" id="project_link">View Project</a>
+          </l1>
         ))}
       </ol>
     </div>

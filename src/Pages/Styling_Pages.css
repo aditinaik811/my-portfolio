@@ -1,1 +1,202 @@
+#page_heading{
+    background-color: crimson;
+    color:white;
+    text-align: center;
+    border-radius: 50px;
+    width:500px;
+    margin-left:550px;
+    font-size:50px;
+}
 
+#home_page{
+    background-color: royalblue;
+    color:white;
+    margin : 10px;
+    border:10px solid darkblue;
+    border-radius: 20px;
+    padding: 20px;
+    width : 900px;
+    margin-left: 250px;
+}
+#home_page_heading{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+}
+
+.home_page_para{
+    text-align: justify;
+    font-style:cursive;
+    font-size: 20px;
+}
+#home_details{
+    background-color: darkblue;
+    color:aliceblue;
+    padding:20px;
+    width:500px;
+    font-family: cursive;
+    font-size: x-large;
+   border-radius: 30px;
+    margin-left: 200px;
+}
+
+#Link_list{
+  background-color:black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  gap: 20px;
+}
+
+
+.link{
+    color:white;
+    font-size: x-large;
+    
+    
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  #profile_photo {
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+  }
+  
+  .home-details {
+    max-width: 400px;
+    font-size: 18px;
+  }
+  
+
+#sma{
+    background-color: darkgray;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+}
+
+#social_media_links{
+    background-color:grey;
+    color:white;
+    border-radius: 20px;
+    margin-left:20px;
+    width:100%;
+    height:300px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 30px; 
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 18px;
+  }
+  
+  .l {
+    height: 24px; 
+    width: auto;
+  }
+
+#contact_page_heading{
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    border-radius: 40px;
+    padding:10px;
+    border:5px solid darkblue;
+}
+#contact_page_para{
+    background-color:darkcyan;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    padding: 30px;
+    margin:20px;
+    border-radius: 30px;
+}
+#contact_info{
+    background-color: darkslategrey;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    padding: 30px;
+    margin:20px;
+    border-radius: 30px;
+}
+
+
+label{
+    color:royalblue;
+}
+
+
+
+#contact_form{
+    background-color: royalblue;
+    color: white;
+    padding:20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size:x-large
+}
+
+label{
+    margin-left: 20px;
+    font-size: 20px;
+    font-size: x-large;
+    
+}
+.sub_place{
+    background-color:darkblue;
+    color:white;
+    font-family: cursive;
+    border-radius: 20px;
+    border: 5px solid cadetblue;
+
+}
+
+#submit_button{
+    background-color: palevioletred;
+    border: 5px solid darkmagenta;
+    color:white;
+    font-size: larger;
+    margin-left:700px;
+    padding:20px;
+    border-radius: 20px;
+    font-family: cursive;
+
+}
+
+#project_page_heading{
+    background-color: darkcyan;
+    color:white;
+    text-align: center;
+    padding:20px;
+    border-radius: 30px;
+    font-size: 24px;
+}
+
+#lists{
+    background-color: beige;
+    border-radius: 30px;
+}

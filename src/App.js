@@ -5,21 +5,23 @@ import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import Skills from "./Pages/Skills";
 
+
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
-        <nav className="bg-white shadow p-4 flex justify-between">
-          <h1 className="text-xl font-bold">My Portfolio</h1>
-          <div className="space-x-4">
-            <Link to="/" className="hover:underline">Home</Link>
-            <Link to="/about" className="hover:underline">About</Link>
-            <Link to="/skills" className="hover:underline">Skills</Link>
-            <Link to="/projects" className="hover:underline">Projects</Link>
-            <Link to="/contact" className="hover:underline">Contact</Link>
+      <h1 id="page_heading">Aditi Ravindra Naik</h1>
+      <div className="main_div">
+        <nav id="nav_bar">
+          
+          <div id="Link_list">
+            <Link to="/" className="link">Home</Link>
+            <Link to="/about" className="link">About</Link>
+            <Link to="/skills" className="link">Skills</Link>
+            <Link to="/projects" className="link">Projects</Link>
+            <Link to="/contact" className="link">Contact</Link>
           </div>
         </nav>
-
+        <br></br><br></br>
         <div className="p-6">
           <Routes>
             <Route path="/" element={<Home />} />

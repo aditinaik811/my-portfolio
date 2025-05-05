@@ -1,21 +1,36 @@
 import React from 'react';
-import './Styling_Pages.css'
+import './Styling_Pages.css';
+import arn_img from '../Photos/arn_img.jpg';
+import instagram from '../Photos/instagram.png';
+import facebook from '../Photos/facebook.png';
+import github from '../Photos/github.png';
+import linkedin from '../Photos/linkedin.png';
+import twitter from '../Photos/twitter.png';
 const Home = () => {
   return (
-    <div id="home_page">
-      <h1 id="home_page_heading">Hi, I'm Aditi Ravindra Naik</h1>
-      <p className="home_page_para">
-        I'm a 21-year-old Computer Science Engineering student currently studying at ST Joseph Engineering College. My academic journey began in Goa at Our Lady of Perpetual Succour High School, at Cortalim followed by high school at St Michael's Convent High School at Karwar in Karnataka where I secured 94.72% in my 10th boards. I pursued my pre-university education at Government PU College in Karwar, scoring 95.67% in my 12th boards.
-      </p>
-      <br />
-      <p className="home_pagea_para">
-        My interests lie in Java, Data Structures and Algorithms (DSA), Full Stack Web Development, and UI/UX Design. I'm also exploring DevOps tools and aspire to dive into Machine Learning soon. I believe learning is a continuous process, and I am always looking to grow both personally and professionally.
-      </p>
-      <br />
-      <p className="home_page_para">
-        Apart from tech, I have a deep passion for cooking. What fascinates me the most is the possibility of combining my love for food and my technical skills to build meaningful web solutions that can contribute to the development sector.
-      </p>
-    </div>
+    <div id="home">
+  <div className="home-container">
+  <img src={arn_img} alt="Your Name" id="profile_photo" />
+  
+  <div id="home_details">
+    <h1>Aditi Ravindra Naik</h1>
+    <p>Email: aditinaik811.@gmail.com</p>
+    <p>Phone: +91-8618106340</p>
+    <p>Location:Vamanjoor , Manglore India</p>
+  </div>
+</div>
+  <div id="social_media_links">
+    <h3 id="sma">Social Media Accounts</h3>
+    <ul>
+      <li>Instagram<img src={instagram} alt="instagram" height="50px" className='l' /></li>
+      <li>Facebook<img src={facebook} alt="instagram" height="50px"className='l'/></li>
+      <li>GitHub <img src={github} alt="instagram" height="50px" className='l'/></li>
+      <li>LinkedIn <img src={linkedin} alt="instagram" height="50px" className='l'/></li>
+      <li>Twitter <img src={twitter} alt="instagram" height="50px" className='l'/></li>
+    </ul>
+  </div>
+  </div>
+    
   );
 };
 
