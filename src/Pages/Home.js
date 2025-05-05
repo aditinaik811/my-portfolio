@@ -6,17 +6,28 @@ import facebook from '../Photos/facebook.png';
 import github from '../Photos/github.png';
 import linkedin from '../Photos/linkedin.png';
 import twitter from '../Photos/twitter.png';
+import { useNavigate } from 'react-router-dom';
+
+
+
+
+
 const Home = () => {
+
+    const navigate = useNavigate();
+  
+    const handleContactClick = () => {
+      navigate('/contact');
+    };
   return (
     <div id="home">
   <div className="home-container">
   <img src={arn_img} alt="Aditi Naik" id="profile_photo" />
   
   <div id="home_details">
-    <h1>Aditi Ravindra Naik</h1>
-    <p>Email: aditinaik811.@gmail.com</p>
-    <p>Phone: +91-8618106340</p>
-    <p>Location:Vamanjoor , Manglore India</p>
+    <h1>Hii, I am Aditi Naik</h1>
+    <h3>Computer Science Undergrad</h3>
+    <p>"I believe that learning is a lifelong journey, not a destination. The Journey of Learning is Never Complete."</p>
   </div>
 </div>
   <div id="social_media_links">
@@ -27,7 +38,9 @@ const Home = () => {
       <li>GitHub <img src={github} alt="instagram" height="50px" className='l'/></li>
       <li>LinkedIn <img src={linkedin} alt="instagram" height="50px" className='l'/></li>
       <li>Twitter <img src={twitter} alt="instagram" height="50px" className='l'/></li>
+      
     </ul>
+    <button id="cm" onClick={handleContactClick}>Contact Me</button>
   </div>
   </div>
     

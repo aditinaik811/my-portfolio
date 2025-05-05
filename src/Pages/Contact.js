@@ -1,6 +1,13 @@
 import React from 'react';
 import './Styling_Pages.css'
+import { useNavigate } from 'react-router-dom';
 const Contact = () => {
+
+  const navigate = useNavigate();
+    
+      const handleContactClick = () => {
+        navigate('/home');
+      };
   return (
     <div id="contact_page">
       <h2 id="contact_page_heading">Contact Me</h2>
@@ -35,6 +42,8 @@ const Contact = () => {
           <br></br>
           <button type="submit" id="submit_button">Submit</button>
         </form>
+        <br></br><br></br>
+        <button id="cm" onClick={handleContactClick}>Back to Home Page</button>
       </div>
     </div>
   );
